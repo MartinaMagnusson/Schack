@@ -42,12 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\..\Desktop\MasterSchack.cs" />
     <Compile Include="Bishop.cs" />
     <Compile Include="Black.cs" />
     <Compile Include="Checker.cs" />
     <Compile Include="King.cs" />
     <Compile Include="Knight.cs" />
+    <Compile Include="MasterSchack.cs" />
     <Compile Include="Pawns.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Queen.cs" />
