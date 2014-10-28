@@ -13,7 +13,7 @@ namespace MasterSchack
             var chessboard = new string[9, 9];
 
             Pawns pawns = new Pawns();
-            
+            //Hej
 
             //Black start position
             chessboard[0, 1] = pawns.Pawn("RB1 ");
