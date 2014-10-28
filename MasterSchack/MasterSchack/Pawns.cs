@@ -13,18 +13,25 @@ namespace MasterSchack
          * Annars ett steg
          * Atakerat diagonalt frammåt 
          */
-        public string Pawn(string pawn)
+
+        public XY position;
+        public string name = "Bonde";
+        public string boardName = "B";
+
+        public Pawns(int x, int y)
         {
-            //Black pawnBlack = new Black();
-            //pawns = pawnBlack.NewBlack();
-            ;
-            Console.ForegroundColor = ConsoleColor.Red;
-            return pawn;
+            position = new XY();
+            position.x = x;
+            position.y = y;
         }
-        //public ConsoleColor Color(ConsoleColor black)
-        //{               
-        //    return black;
-        //}
+
+
+    }
+
+    public class XY
+    {
+        public int x;
+        public int y;
 
     }
 }

@@ -11,8 +11,9 @@ namespace MasterSchack
         /*
          * Göra drag
          * Håll reda på position 
-         * Atakera motståndare
+         * Atackera motståndare
          * Kunna dö om den blir tagen 
          */
+
     }
 }
