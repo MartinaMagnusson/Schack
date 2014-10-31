@@ -16,7 +16,7 @@ namespace MasterSchack
 
         public XY position;
         public string name = "Bonde";
-        public string boardName = "B";
+        public string boardName = "B   ";
 
         public Pawns(int x, int y)
         {
